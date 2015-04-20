@@ -1,0 +1,7 @@
+{
+	"name": "css-helpers",
+	"version": "1.0.0",
+	"description": "A small library of CSS helper classes that can be used to reduce the amount of CSS your write.",
+	"author": "Paul Farino",
+	"license": "MIT"
+}
