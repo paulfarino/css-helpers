@@ -1,5 +1,5 @@
 // css-helpers by Paul Farino
-// v.1
+// v 1.01
 
 
 // Colors
@@ -57,13 +57,14 @@ $border-radius: 2px;
 
 // Buttons
 // --------------------------------------------------
-button {
+button, .button {
   cursor: pointer;
+  display: inline-block;
   &.blue {
     color: white;
     background-color: $blue;
     border-radius: 2px;
-    padding: 4px 40px 4px 40px;
+    padding: 13px 40px 13px 40px;
     height: 45px;
     line-height: 16px;
     font-size: 16px;
@@ -71,39 +72,39 @@ button {
     box-shadow: inset 0 -1px 1px rgba(0,0,0,.3);
      &:focus {
        outline: none;
+      }
      &:hover {
        cursor: pointer;
        background-color: darken($blue, 10%);
        transition: $transition;
+      }
      &:active {
        background-color: darken($blue, 10%);
        box-shadow: inset 0 2px 1px rgba(0,0,0,.3);
-        }
       }
-    }
-  }
+  }  
 
-    &.dark-grey {
-    color: white;
-    background-color: $grey2;
-    border-radius: 2px;
-    padding: 4px 40px 4px 40px;
-    height: 45px;
-    line-height: 16px;
-    font-size: 16px;
-    border: none;
-    box-shadow: inset 0 -1px 1px rgba(0,0,0,.3);
-     &:focus {
-       outline: none;
-     &:hover {
-       cursor: pointer;
-       background-color: darken($grey2, 10%);
-       transition: $transition;
-     &:active {
-       background-color: darken($grey2, 10%);
-       box-shadow: inset 0 2px 1px rgba(0,0,0,.3);
-        }
-      }
+  &.dark-grey {
+  color: white;
+  background-color: $grey2;
+  border-radius: 2px;
+  padding: 13px 40px 13px 40px;
+  height: 45px;
+  line-height: 16px;
+  font-size: 16px;
+  border: none;
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.3);
+   &:focus {
+     outline: none;
+    }
+   &:hover {
+     cursor: pointer;
+     background-color: darken($grey2, 10%);
+     transition: $transition;
+    }
+   &:active {
+     background-color: darken($grey2, 10%);
+     box-shadow: inset 0 2px 1px rgba(0,0,0,.3);
     }
   }
 
@@ -111,7 +112,7 @@ button {
     color: #777;
     background-color: $grey1;
     border-radius: 2px;
-    padding: 4px 40px 4px 40px;
+    padding: 13px 40px 13px 40px;
     height: 45px;
     line-height: 16px;
     font-size: 16px;
@@ -119,39 +120,39 @@ button {
     box-shadow: inset 0 -1px 1px rgba(0,0,0,.3);
      &:focus {
        outline: none;
+      }
      &:hover {
        cursor: pointer;
        background-color: darken($grey1, 10%);
        transition: $transition;
+      }
      &:active {
        background-color: darken($grey1, 10%);
        box-shadow: inset 0 2px 1px rgba(0,0,0,.3);
-        }
       }
     }
-  }
 
-    &.green {
-    color: white;
-    background-color: $green;
-    border-radius: 2px;
-    padding: 4px 40px 4px 40px;
-    height: 45px;
-    line-height: 16px;
-    font-size: 16px;
-    border: none;
-    box-shadow: inset 0 -1px 1px rgba(0,0,0,.3);
-     &:focus {
-       outline: none;
-     &:hover {
-       cursor: pointer;
-       background-color: darken($green, 10%);
-       transition: $transition;
-     &:active {
-       background-color: darken($green, 10%);
-       box-shadow: inset 0 2px 1px rgba(0,0,0,.3);
-        }
-      }
+  &.green {
+  color: white;
+  background-color: $green;
+  border-radius: 2px;
+  padding: 13px 40px 13px 40px;
+  height: 45px;
+  line-height: 16px;
+  font-size: 16px;
+  border: none;
+  box-shadow: inset 0 -1px 1px rgba(0,0,0,.3);
+   &:focus {
+     outline: none;
+    }
+   &:hover {
+     cursor: pointer;
+     background-color: darken($green, 10%);
+     transition: $transition;
+    }
+   &:active {
+     background-color: darken($green, 10%);
+     box-shadow: inset 0 2px 1px rgba(0,0,0,.3);
     }
   }
 }
