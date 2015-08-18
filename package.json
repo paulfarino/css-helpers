@@ -4,6 +4,7 @@
   "description": "A small library of CSS helper classes that can be used to reduce the amount of CSS your write.",
   "files": [
     "config.scss"
+    "spacing-mixins.scss"
   ],
   "author": "Paul Farino <paul.farino1@gmail.com>",
   "license": "MIT",
