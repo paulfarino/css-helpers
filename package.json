@@ -1,6 +1,6 @@
 {
   "name": "css-helpers",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "description": "A small library of CSS helper classes that can be used to reduce the amount of CSS your write.",
   "files": [
     "config.scss",
