@@ -66,16 +66,17 @@ $ratio: 1.618; // Golden Ratio
 }
 
 // Sample HTML + Body Styles
-html{
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased !important;
-    text-rendering: optimizelegibility;
-    -moz-osx-font-smoothing: grayscale;
-}
-body{
-  font-family: 'Helvetica Neue', sans-serif;
-  color: rgb(33,33,33);
-  margin: 0 auto 2em;
-}
+///////////////////////////////////////////////////
+// html {
+//     font-size: 100%;
+//     -webkit-text-size-adjust: 100%;
+//     -ms-text-size-adjust: 100%;
+//     -webkit-font-smoothing: antialiased !important;
+//     text-rendering: optimizelegibility;
+//     -moz-osx-font-smoothing: grayscale;
+// }
+// body{
+//   font-family: 'Helvetica Neue', sans-serif;
+//   color: rgb(33,33,33);
+//   margin: 0 auto 2em;
+// }

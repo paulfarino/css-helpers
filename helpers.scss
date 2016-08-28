@@ -1,0 +1,113 @@
+// Helpers
+// --------------------------------------------------
+.img-responsive {
+  max-width: 100%;
+  height: auto; 
+  display: block;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.hide {
+  display: none !important;
+}
+
+.hidden {
+  visibility: none;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+.block {
+  display: block !important;
+}
+
+.relative {
+  position: relative;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.vc {
+  min-height: 100%;  
+  display: flex;
+  align-items: center;
+}
+
+.vcentered {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.zup {
+  z-index: 1;
+}
+
+
+// Text
+// --------------------------------------------------
+.txt-l {
+  text-align: left !important;
+}
+
+.txt-r {
+  text-align: right !important;
+}
+
+.center, 
+.txt-c {
+  text-align: center !important;
+}
+
+.left {
+  float: left !important;
+}
+
+.right {
+  float: right !important;
+}
+
+.txt-up {
+  text-transform: uppercase;
+}
+
+.truncate {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// Selection
+// --------------------------------------------------
+::selection      {
+  color: black;
+  background: rgba(255,255,0,.3);
+}
+
+::-moz-selection {
+  color: black;
+  background: rgba(255,255,0,.3);
+}
